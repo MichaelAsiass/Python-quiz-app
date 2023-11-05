@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.quiz_box header .timer .time_left_txt {
+  display: none; /* Hide the "Time Left" text */
+}
+
 body {
   background: #01132d;
 }
@@ -19,7 +23,7 @@ body {
 }
 
 .logo {
-  font-size: 45px;
+  font-size: 20px;
   font-weight: 700;
   color: white;
 }
@@ -153,7 +157,8 @@ body {
 }
 
 .quiz_box header .timer {
-  color: #004085;
+  display: none;
+   /*color: #004085;
   background: #cce5ff;
   border: 1px solid #b8daff;
   height: 45px;
@@ -162,7 +167,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 145px;
+  width: 145px;/*/
 }
 
 .quiz_box header .timer .time_left_txt {
